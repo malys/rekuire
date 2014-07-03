@@ -1,4 +1,4 @@
-Rekuire [![NPM version](https://badge.fury.io/js/rekuire.png)](http://badge.fury.io/js/rekuire)
+Rekuire [![Build Status](https://travis-ci.org/malys/rekuire.png)](https://travis-ci.org/malys/rekuire)
 =========
 'rekuire' is basically node's 'require' without the relative paths!
 
@@ -20,7 +20,7 @@ Whats new?
 > * Add tests
 > * Add compatibility with Browseritfy [rekuirify](https://github.com/malys/node-rekuirify)
 > * Add Travis CI
-
+> * Add jshint quality control
 
 ####0.1.5
 > * fixed a bug that causes failures when scanning a package with higher os privileges (thanks [Danny][danny]!)
