@@ -1,33 +1,33 @@
 {
-  "name": "rekuire",
-  "version": "0.1.5",
-  "description": "'rekuire' is basically node's 'require' without the relative paths",
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/nadav-dav/rekuire.git"
-  },
-  "main": "./lib/main.js",
-  "scripts": {
-    "test": "npm install && jasmine-node ./test/"
-  },
-  "dependencies" : {
-      "underscore" : "*"
-  },
-  "devDependencies" : {
-      "fs-extra" : "*",
-      "jasmine-node" : "*",
-      "proxyquire" : "*"
-  },
-  "keywords": [
+    "name": "rekuire",
+    "version": "0.2.0",
+    "description": "'rekuire' is basically node's 'require' without the relative paths",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/nadav-dav/rekuire.git"
+    },
+    "main": "./lib/main.js",
+    "scripts": {
+        "test": "npm install && jasmine-node ./test/"
+    },
+    "dependencies": {
+        "underscore": "*"
+    },
+    "devDependencies": {
+        "fs-extra": "*",
+        "jasmine-node": "*",
+        "proxyquire": "*"
+    },
+    "keywords": [
     "require",
     "rekuire ",
     "relative",
     "path",
     "node"
   ],
-  "author": {
-    "name":"Nadav Dav",
-    "email": "nadavik@gmail.com"
-  },
-  "license": "BSD"
+    "author": {
+        "name": "Nadav Dav",
+        "email": "nadavik@gmail.com"
+    },
+    "license": "BSD"
 }
