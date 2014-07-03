@@ -15,6 +15,13 @@ or add it to your ```package.json``` as a dependency.
 - - - 
 Whats new?
 ----------
+####0.2.0
+> * Increase performance
+> * Add tests
+> * Add compatibility with Browseritfy [rekuirify](https://github.com/malys/node-rekuirify)
+> * Add Travis CI
+
+
 ####0.1.5
 > * fixed a bug that causes failures when scanning a package with higher os privileges (thanks [Danny][danny]!)
 
